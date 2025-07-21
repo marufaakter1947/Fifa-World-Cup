@@ -1,0 +1,52 @@
+.green-box{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    margin-bottom: 40px;
+}
+.red-box{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    /* top:100px;
+    left: 200px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* using-flex */
+.green{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.red{
+     height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    /* margin: 0 auto; */
+   
+}
+/* ------using grid  */
+.green-grid{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    display: grid;
+    place-items: center;
+}
+.red-grid{
+     height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+   
+}
