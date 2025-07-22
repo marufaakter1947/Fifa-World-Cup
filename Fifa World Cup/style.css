@@ -17,6 +17,7 @@
     border: none;
     color: #FFFFFF;
 }
+/* --------------banner---------- */
 .banner{
     display: flex;
     align-items: center;
@@ -42,3 +43,62 @@
 .banner-right img{
     display: block;
 }
+
+        /* -------Upcoming matches--------- */
+        .upcoming-matches{
+            display: flex;
+            gap: 50px;
+        }
+        .upcoming-matches-left{
+            background-color: black;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 15px;
+            border-radius: 15px;
+            height: fit-content;
+        }
+        .upcoming-matches-left .btn:nth-child(1),
+        .upcoming-matches-left .btn:nth-child(2){
+            background-color: #FFFFFF;
+            color: #161616;
+        }
+        .card{
+            max-width: 312px;
+            border: 1px solid #E8E8E8;
+            border-radius: 10px;
+        }
+        .card-btn{
+            background-color: #FFFFFF;
+            color: black;
+            border: 2px solid black;
+            padding: 4px 16px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 24px;
+            margin-bottom: 19px;
+        }
+        .card p{
+            font-size: 18px;
+            font-weight: 600;
+            color: #161616;
+            margin-bottom: 20px;
+        }
+        .card img{
+            height: 175px;
+            border-radius: 10px 10px 0 0;
+        }
+        .card-body{
+            padding: 20px;
+        }
+        .card-bottom{
+            display: flex;
+            gap: 41px;
+        }
+        .card-bottom span{
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+        }
