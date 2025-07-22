@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1414px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: #DD0000;
+    padding: 16px 25px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.banner h2{
+    font-size: 4.37rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+.banner p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+.banner-left{
+    margin-left: 125px;
+}
+.banner-right img{
+    display: block;
+}
